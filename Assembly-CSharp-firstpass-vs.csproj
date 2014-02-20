@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{2A630570-1341-4B99-8A03-0899C67DC63C}</ProjectGuid>
+	<ProjectGuid>{7785F223-6746-B91C-82D4-7F28B5A230B0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,10 +46,62 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\uGameDB\Utility Scripts\uGameDBAdminInterface.cs" />
+     <Compile Include="Assets\Plugins\uGameDB\Utility Scripts\uGameDBConnection.cs" />
+     <Compile Include="Assets\Plugins\uGameDB\Utility Scripts\uGameDBStatisticsGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkEnterLicenseKey.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkInternalHelper.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkNetworkP2P.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkNetworkView.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkRegisterPrefabs.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkServerAuthentication.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkChatGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkClientGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkConsoleGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkInstantiateForOthers.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkInstantiatePool.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkObjectLabel.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkObservedList.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkOverrideNetworkDestroy.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkOverrideSettings.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkP2PConnector.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSimpleServer.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothCharacter.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothPlatformer.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothRigidbody.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothRigidbodyImproved.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkStatisticsGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkStrictCharacter.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkStrictPlatformer.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkTargetFrameRateFix.cs" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <None Include="Assets\Jboy\Library\Jboy.xml" />
+     <None Include="Assets\Resources\uLinkPrefs.txt" />
+     <None Include="Assets\Plugins\uLink\Assembly\uLink.xml" />
+     <None Include="Assets\Plugins\uGameDB\Assembly\uGameDB.xml" />
+     <None Include="Assets\Plugins\uLobby\Extras\ClientDLL\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Plugins\uLobby\Extras\link.xml" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Plugins\uLobby\uLobby License.txt" />
+     <None Include="Assets\Jboy\Library\Jboy.Core.xml" />
+     <None Include="Assets\Plugins\uGameDB\uGameDB License.txt" />
+ <Reference Include="Jboy.Core">
+ <HintPath>Assets\Jboy\Library\Jboy.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Jboy">
+ <HintPath>Assets\Jboy\Library\Jboy.dll</HintPath>
+ </Reference>
+ <Reference Include="uGameDB">
+ <HintPath>Assets\Plugins\uGameDB\Assembly\uGameDB.dll</HintPath>
+ </Reference>
+ <Reference Include="uLink">
+ <HintPath>Assets\Plugins\uLink\Assembly\uLink.dll</HintPath>
+ </Reference>
+ <Reference Include="uLobby">
+ <HintPath>Assets\Plugins\uLobby\Assembly\uLobby.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

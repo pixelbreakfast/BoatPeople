@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{96596E55-CFAB-F442-4BCA-6497D82D2F81}</ProjectGuid>
+	<ProjectGuid>{F2608FD7-2EFA-ED96-9D0A-5FC44F0632B3}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,8 +47,35 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\FindMissingScriptsRecursively.cs" />
+     <None Include="Assets\Jboy\Library\Jboy.xml" />
+     <None Include="Assets\Resources\uLinkPrefs.txt" />
+     <None Include="Assets\Plugins\uLink\Assembly\uLink.xml" />
+     <None Include="Assets\Plugins\uGameDB\Assembly\uGameDB.xml" />
+     <None Include="Assets\Plugins\uLobby\Extras\ClientDLL\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Plugins\uLobby\Extras\link.xml" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Plugins\uLobby\uLobby License.txt" />
+     <None Include="Assets\Jboy\Library\Jboy.Core.xml" />
+     <None Include="Assets\Plugins\uGameDB\uGameDB License.txt" />
+ <Reference Include="Jboy.Core">
+ <HintPath>Assets\Jboy\Library\Jboy.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Jboy">
+ <HintPath>Assets\Jboy\Library\Jboy.dll</HintPath>
+ </Reference>
+ <Reference Include="uLinkEditor">
+ <HintPath>Assets\Plugins\Editor\uLink\Assembly\uLinkEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="uGameDB">
+ <HintPath>Assets\Plugins\uGameDB\Assembly\uGameDB.dll</HintPath>
+ </Reference>
+ <Reference Include="uLink">
+ <HintPath>Assets\Plugins\uLink\Assembly\uLink.dll</HintPath>
+ </Reference>
+ <Reference Include="uLobby">
+ <HintPath>Assets\Plugins\uLobby\Assembly\uLobby.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -70,11 +97,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{2A630570-1341-4B99-8A03-0899C67DC63C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7785F223-6746-B91C-82D4-7F28B5A230B0}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{36F659F4-C236-A46B-540D-AD30CDA8003B}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{E0B3E93D-7A33-ABF2-68A2-8719F38C2087}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{EA4A9488-CBAE-A7D8-9B07-464D08AEBCC3}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{40388B20-481C-6022-6795-605EB58AFB8A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{84E1515F-9F4D-0476-4E73-8F77CBEEA6EB}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 8e6602a3aeb5db74a8ac5c4064b39f01
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Girderpiece
+    100004: Girderpiece001
+    100006: Girderpiece002
+    100008: Girderpiece003
+    100010: Girderpiece004
+    100012: Girderpiece005
+    100014: Girderpiece006
+    100016: Girderpiece007
+    100018: Girderpiece008
+    100020: Girderpiece009
+    400000: //RootNode
+    400002: Girderpiece
+    400004: Girderpiece001
+    400006: Girderpiece002
+    400008: Girderpiece003
+    400010: Girderpiece004
+    400012: Girderpiece005
+    400014: Girderpiece006
+    400016: Girderpiece007
+    400018: Girderpiece008
+    400020: Girderpiece009
+    2300000: //RootNode
+    2300002: Girderpiece
+    2300004: Girderpiece001
+    2300006: Girderpiece002
+    2300008: Girderpiece003
+    2300010: Girderpiece004
+    2300012: Girderpiece005
+    2300014: Girderpiece006
+    2300016: Girderpiece007
+    2300018: Girderpiece008
+    2300020: Girderpiece009
+    3300000: //RootNode
+    3300002: Girderpiece
+    3300004: Girderpiece001
+    3300006: Girderpiece002
+    3300008: Girderpiece003
+    3300010: Girderpiece004
+    3300012: Girderpiece005
+    3300014: Girderpiece006
+    3300016: Girderpiece007
+    3300018: Girderpiece008
+    3300020: Girderpiece009
+    4300000: Girderpiece
+    4300002: Girderpiece001
+    4300004: Girderpiece002
+    4300006: Girderpiece003
+    4300008: Girderpiece004
+    4300010: Girderpiece005
+    4300012: Girderpiece006
+    4300014: Girderpiece007
+    4300016: Girderpiece008
+    4300018: Girderpiece009
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
